@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contabilidad</title>
+   
+</head>
+<body>
+    <br>
+    <h2>Formulario Consulta Proveedor.</h2>
+    <form action="">
+        <br>
+        <label for="proveedoractivo">Activo</label> <br>
+        <input type='radio' id="proveedoractivo_si" name="proveedoractivo" value='si'>si <br>
+        <input type='radio' id="proveedoractivo_no" name="proveedoractivo" value='no'>no <br>
+        <br>
+
+        <label for="primernombre">Primer Nombre</label> <br>
+        <input type="text" id="primernombre" placeholder="Ingrese su primer nombre aqui"> <br>
+        <br>
+        <label for="segundonombre">Segundo Nombre</label> <br>
+        <input type="text" id="segundonombre" placeholder="Ingrese su segundo nombre aqui"> <br>
+        <br>
+        <label for="primerapellido">Primer Apellido</label> <br>
+        <input type="text" id="primerapellido" placeholder="Ingrese su primer apellido aqui"> <br>
+        <br>
+        <label for="segundoapellido">Segundo Apellido</label> <br>
+        <input type="text"  id="segundoapellido" placeholder="Ingrese su segundo apellido aqui"> <br>
+        <br>
+        <label for="email">Correo</label> <br>
+        <input type="text"  id="email" placeholder="Ingrese su correo aqui"> <br>
+        <br>
+        <label for="direccion">Direccion</label> <br>
+        <input type="text"  id="direccion" placeholder="Ingrese su direccion aqui"> <br>
+        <br>
+        <label for="telefono">Telefono</label> <br>
+        <input type="text"  id="telefono" placeholder="Ingrese su telefono aqui"> <br>
+        <br>
+        <label for="codigopostal">Codigo Postal</label> <br>
+        <input type="text"  id="codigopostal" placeholder="Ingrese su codigo postal aqui"> <br>
+        <br>
+        <label for="pais">Pais</label> <br>
+        <input type="text"  id="pais" placeholder="Ingrese su pais aqui"> <br>
+        <br>
+        <label for="ciudad">Ciudad</label> <br>
+        <input type="text"  id="ciudad" placeholder="Ingrese su ciudad aqui"> <br>
+        <br>
+        <label for="clasificacion">Clasificacion</label> <br>
+        <input type='radio' id="cliente" name="clasificacion" value='cliente'>Cliente <br>
+        <input type='radio' id="proveedor" name="clasificacion" value='proveedor'>Proveedor <br>
+        <input type='radio' id="otro" name="clasificacion" value='otro'>Otro <br>
+        <br>
+        <label for="clasificaciont">Clasificación Tributaria</label> <br>
+        <input type='radio' id="natural" name="clasificaciont" value='natural'>natural <br>
+        <input type='radio' id="juridica" name="clasificaciont" value='juridica'>juridica <br>
+        <input type='radio' id="ninguna" name="clasificaciont" value='ninguna'>ninguna <br>
+        <br>
+        <label for="nit">En Jurídica ingrese el NIT</label> <br>
+        <input type="text"  id="nit" placeholder="Ingrese su NIT aqui"> <br>
+        <br>
+        <label for="verificacion">Digito de Verificación</label> <br>
+        <input type="text"  id="verificacion" placeholder="Ingrese digito de verificacion aqui"> <br>
+        <br>
+        <label for="formadepago">Forma de Pago</label> <br>
+        <input type="text"  id="formadepago" placeholder="Ingrese forma de pago aqui"> <br>
+        <br>
+        <label for="tipoproveedor">Tipo de Proveedor</label> <br>
+        <input type='radio'id= "nacional" name="tipoproveedor" value='nacional'>Nacional <br>
+        <input type='radio' id ="internacional" name="tipoproveedor" value='internacional'>Internacional <br>
+        <br>
+        <label for="periodopago">Periodo de Pago</label> <br>
+        <input type="text" id="periodopago" placeholder="Ingrese su periodo de pago aqui"> <br>
+        <br>
+        <label for="descuentoventas">Descuento en ventas</label> <br>
+        <input type="text" id="descuentoventas" placeholder="Ingrese su descuento aqui"> <br>
+        <br>
+        <label for="activarportalweb">Activar portal Web</label> <br>
+        <input type="radio" id="activarportalweb_si" name= "activarportalweb" value='Si' >Si <br>
+        <input type="radio" id="activarportalweb_no" name= "activarportalweb" value='No' >No <br>
+        <br>
+      
+        <button id="btnEnviar" type="button">Enviar Formulario</button>
+        
+    </form>
+
+        <script src="app.js"></script>
+     <h3>Resultados Formulario:</h3>
+     <ul id="resultados"></ul>
+    </body>
+</html>
